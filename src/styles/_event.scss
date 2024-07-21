@@ -6,6 +6,8 @@
 
     &--parabens {
         background-image: linear-gradient(variables.$dark1, variables.$dark2);
+        padding-top: 40px;
+       
     }
 
     &--feliciades {
@@ -14,6 +16,7 @@
 
     &--paz-saude {
         background-image: linear-gradient(variables.$dark1, variables.$dark2);
+        padding-bottom: 40;
     }
 
 
@@ -45,9 +48,18 @@
         }
     }
 
+    @media (max-width: 1024px) {
+        .container {
+            display: block;
+            margin-left: 120px;
+            margin-right: 20px;    
+        }
+    }
+
     @media (max-width: 640px) {
         .container {
             display: block;
+            margin-left: 10px;
         }
 
         &__image {

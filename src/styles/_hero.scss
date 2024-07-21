@@ -2,8 +2,8 @@
 
 .hero {
     padding-top: 64px;
-    padding-bottom: 60px;
-    background-color: red;
+    padding-bottom: 30px;
+    background-color: rgb(92, 4, 4);
     background-repeat: no-repeat;
     background-size: cover;   /*para preencher todo o container   */
     position: relative;
@@ -11,17 +11,6 @@
 
     .container {
         position: relative;   /* para que o conteúdo do container fique a frente da tela escura   */
-    }
-
-    &::before {          /*para escurecer o conteiner ocupado pelo back-ground-image */
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: variables.$secondaryTextColor;
-        content: "";     /* necessário que o processo de preenchimento da tela funcione  */
-        opacity: .7;
     }
 
     &__text {
@@ -40,7 +29,9 @@
     }
 
     @media (max-width: 640px) {
-        padding: 40px 0;
+        padding: 40px 0px;
+       
+        
 
         &__logo {
             height: 90px;
