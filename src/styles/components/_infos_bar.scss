@@ -1,7 +1,8 @@
 @use '../variables';
 
 .infos-bar {
-    padding: 16px 24px;
+    padding: 16px 60;
+    text-align: center;
     background-color: variables.$textColor;
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,7 @@
         gap: 150px;
 
         &__item {
-            font-size: 14px;
+            font-size: 20px;
             color: variables.$secondaryTextColor;
 
             b {

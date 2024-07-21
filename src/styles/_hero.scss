@@ -2,8 +2,8 @@
 
 .hero {
     padding-top: 64px;
-    padding-bottom: 100px;
-    background-image: url(../images/Hero.jpg);
+    padding-bottom: 60px;
+    background-color: red;
     background-repeat: no-repeat;
     background-size: cover;   /*para preencher todo o container   */
     position: relative;
@@ -35,7 +35,7 @@
 
     &__logo {
         margin: 0 auto;
-        height: 200px;
+        height: 220px;
         display: block;
     }
 
