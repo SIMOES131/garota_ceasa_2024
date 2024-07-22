@@ -24,6 +24,6 @@ const contaAsHoras = setInterval(function() {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = 'O evento já começou!';
+        document.getElementById('contador').innerHTML = 'O maior evento da Terra, depois das Olimpíadas e da Copa do Mundo, começou!';
     }
 }, 1000);
