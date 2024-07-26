@@ -21,7 +21,12 @@
     }
 
 
-    
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
     .container {
         display: flex;
         gap: 40px;
@@ -85,5 +90,4 @@
             margin-bottom: 16px;
         }
     }
-
 }
