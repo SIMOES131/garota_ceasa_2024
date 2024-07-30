@@ -30,11 +30,13 @@
 
     @media (max-width: 640px) {
         padding: 40px 0px;
-       
+        
 
         &__logo {
             height: 170px;
             margin-bottom: 45px;
+            margin-top: 5px;
+           
         }
 
         &__text {
